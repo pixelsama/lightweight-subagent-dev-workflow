@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lightweight Dev Workflow"
+  short_description: "Implicit workflow for coding tasks"
+  default_prompt: "Use $lightweight-subagent-dev-workflow to handle this implementation task with a lightweight end-to-end workflow."
+
+policy:
+  allow_implicit_invocation: true
