@@ -1,6 +1,16 @@
 ---
 name: lightweight-subagent-dev-workflow
-description: Use for implementation-oriented coding requests by default. Trigger when the user asks Codex to build a feature, fix a bug, refactor code, add or update tests, wire a workflow, or otherwise modify code to deliver working behavior. This skill provides a lightweight end-to-end development workflow for coding tasks: the main agent keeps ownership of requirements, plan, integration, verification, and final acceptance, and may use explorer, worker, and reviewer subagents only when complexity or risk justifies them. Do not use for pure brainstorming, explanation-only requests, reviews with no implementation, or tiny edits where extra workflow would add more coordination cost than value.
+description: >-
+  Use for implementation-oriented coding requests by default. Trigger when the
+  user asks Codex to build a feature, fix a bug, refactor code, add or update
+  tests, wire a workflow, or otherwise modify code to deliver working behavior.
+  This skill provides a lightweight end-to-end development workflow for coding
+  tasks: the main agent keeps ownership of requirements, plan, integration,
+  verification, and final acceptance, and may use explorer, worker, and
+  reviewer subagents only when complexity or risk justifies them. Do not use
+  for pure brainstorming, explanation-only requests, reviews with no
+  implementation, or tiny edits where extra workflow would add more
+  coordination cost than value.
 ---
 
 # Lightweight Subagent Development Workflow
